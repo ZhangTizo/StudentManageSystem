@@ -1,0 +1,133 @@
+<%@pagecontentType="text/html;charset=UTF-8"language="java"%>
+<html>
+<head>
+    <title>html简单的table样式</title>
+    <styletype="text/css">
+    /*gridtable*/
+    table.gridtable{
+    font-family:verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width:1px;
+    border-color:#666666;
+    border-collapse:collapse;
+    }
+    table.gridtableth{
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#666666;
+    background-color:#dedede;
+    }
+    table.gridtabletd{
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#666666;
+    background-color:#ffffff;
+    }
+    /*/gridtable*/
+
+    /*imagetable*/
+    table.imagetable{
+    font-family:verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width:1px;
+    border-color:#999999;
+    border-collapse:collapse;
+    }
+    table.imagetableth{
+    background:#b5cfd2url('cell-blue.jpg');
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#999999;
+    }
+    table.imagetabletd{
+    background:#dcddc0url('cell-grey.jpg');
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#999999;
+    }
+    /*/imagetable*/
+    /*altrowstable*/
+
+    table.altrowstable{
+    font-family:verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width:1px;
+    border-color:#a9c6c9;
+    border-collapse:collapse;
+    }
+    table.altrowstableth{
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+
+
+
+
+
+    border-color:#a9c6c9;
+    }
+    table.altrowstabletd{
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#a9c6c9;
+    }
+    .oddrowcolor{
+    background-color:#d4e3e5;
+    }
+    .evenrowcolor{
+    background-color:#c3dde0;
+    }
+    /*/altrowstable*/
+
+    /*hovertable*/
+    table.hovertable{
+    font-family:verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width:1px;
+    border-color:#999999;
+    border-collapse:collapse;
+    }
+    table.hovertableth{
+    background-color:#c3dde0;
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#a9c6c9;
+    }
+    table.hovertabletr{
+    background-color:#d4e3e5;
+    }
+    table.hovertabletd{
+    border-width:1px;
+    padding:8px;
+    border-style:solid;
+    border-color:#a9c6c9;
+    }
+    /*/hovertable*/
+
+    </style>
+    </head>
+    <body>
+    <h2>table样式1:单像素边框CSS表格</h2>
+                             <tableclass="gridtable">
+                                                    <tr>
+                                                    <th>InfoHeader1</th>
+                                                                     <th>InfoHeader2</th>
+                                                                                      <th>InfoHeader3</th>
+                                                                                                       </tr>
+                                                                                                         <tr>
+                                                                                                         <td>Text1A</td><td>Text1B</td><td>Text1C</td>
+                                                                                                                                                   </tr>
+                                                                                                                                                     <tr>
+                                                                                                                                                     <td>Text2A</td><td>Text2B</td><td>Text2C</td>
+                                                                                                                                                                                               </tr>
+                                                                                                                                                                                                 </table>
